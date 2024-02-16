@@ -1,0 +1,92 @@
+.hero-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-content__img {
+    width: 100%;
+    background-size: cover;
+    height: 366px;
+}
+
+.hero-content__button {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    min-width: 200px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border-radius: 100px;
+    text-decoration: none;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.hero-content__button:hover {
+    opacity: 0.9;
+}
+
+.hero-content__button_explore {
+    width: 224px;
+    color: #f85e9f;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    margin-top: -15px;
+}
+
+.hero-content__button_start {
+    width: 90%;
+    line-height: 40px;
+    margin-bottom: 15px;
+    color: #eee;
+    background-color: #5d50c6;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.hero-content__button_demo {
+    width: 90%;
+    line-height: 40px;
+    background-color: #fff;
+    color: #252525;
+    border: 1px solid #c9c9c9;
+}
+
+.hero-content__title {
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 15px;
+}
+
+.hero-content__title-span {
+    color: #f85e9f;
+}
+
+.hero-content__text {
+    font-size: 18px;
+    color: #999;
+    margin: 15px;
+    text-align: center;
+}
+
+.fa-circle-play {
+    color: #5d50c6;
+    margin-right: 5px;
+}
+
+.fa-briefcase {
+    color: #f85e9f;
+    margin-left: 10px;
+}
+
+/* Responsive CSS */
+
+/* @media (min-width: 450px) {
+    .
+} */
